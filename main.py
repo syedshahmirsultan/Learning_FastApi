@@ -18,7 +18,7 @@ def main(name:str)->str:
 def get_id(id:int)->Any:
     return (f"Your id is {id}")
     
-# You can do this as well in Fast API    
+# You can do this as well in FastAPI    
 @app1.get("/{id}/{name}")
 def get_info(id:int,name:str)->Any:
     return (f"Your Id is {id} and your name is {name}")
